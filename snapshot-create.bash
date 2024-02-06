@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# this script is mostly annexersize to test out all ofvthe functionality of gnu tar and is paired with snapshot-update.bash 
+# this script is mostly an exersize to test out all of the functionality of gnu tar and is paired with snapshot-update.bash 
 level=0
 echo "Input directory name to create and target for archiveing: "
 read target
