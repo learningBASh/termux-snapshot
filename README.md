@@ -1,2 +1,6 @@
 # termux-snapshot
 The purpose of this backup script is to provide a means to manage additionly installed termux packages: to observe the package and all dependencies compared to the base system with develpment purposes in mind, checksum all additions for mindful trust managment, use such packages and remove them after use preserving the advantages of simplicity, save package after removed for later use again meeting backup intentions.
+ # separate files branch
+ Because of what seems to be a bug in GNU Tar the separate files branch has been created to move forward. Use the gnu documentation and continue to write for the intended purpose of archiveing each pkg update in a way that may be undone and restored. The manner which may be tried is to specify a second tar and incremental file at level 1. The level 0 should be a clean install and the first level 1 should be the first update additional level 1 then any installed packages. termux.0.tar level0.snar, termux.1.tar update.snar, and termux.1a.tar hexedit.snar. Check to be sure the restore op does not erase first thus disallowing a restore of level1 backups.
+ If separate archive disallowed --update will be the only method to use leaving a possibility of tar0 tar1 tar1a tar1b each lettered edition may be rolled back to updated after use.
+ 
