@@ -1,6 +1,15 @@
 #!/data/data/com.termux/files/usr/bin/bash
+TERMUX_VERSION=0.118.0
+#tar --version
+#tar (GNU tar) 1.35
+#Copyright (C) 2023 Free Software Foundation, Inc.
+#License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+#This is free software: you are free to change and redistribute it.
+#There is NO WARRANTY, to the extent permitted by law.
+#
+#Written by John Gilmore and Jay Fenlason.
 # this script is mostly an exersize to test out all of the functionality of gnu tar and is paired with snapshot-update.bash 
-# a script to comvine the exersizes into a single script without user input and show a tar malfunction 
+# a script to combine the exersizes into a single script without user input and show a tar malfunction 
 level=0
 #echo "Input directory name to create and target for archiveing: "
 #read target
